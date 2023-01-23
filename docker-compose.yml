@@ -1,0 +1,6 @@
+services:
+  web:
+    build: app
+    command: ./docker-entrypoint.sh
+    ports:
+      - '8000:8000'
